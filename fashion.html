@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#35172e">
+  <meta name="description" content="Explore clothing categories at Utsav Shrangar & Garments. Contact the shop to confirm product details and availability.">
+  <title>Fashion | Utsav Shrangar & Garments</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/products.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Utsav Shrangar & Garments home">
+        <img class="brand-logo" data-shop-logo src="assets/images/clean/utsav-logo-clean.jpg" alt="Utsav Shrangar & Garments logo">
+        <span class="brand-copy">
+          <span class="brand-name" data-shop-name>Utsav Shrangar & Garments</span>
+          <span class="brand-tagline">Style • Beauty • Tradition</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="index.html" data-page-link>Home</a>
+        <a href="fashion.html" data-page-link>Fashion</a>
+        <a href="beauty.html" data-page-link>Beauty & Jewellery</a>
+        <a href="contact.html" data-page-link>Contact</a>
+      </nav>
+
+      <a class="button header-contact" href="contact.html">Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Utsav fashion collection</p>
+        <h1>Fashion for every occasion.</h1>
+        <p class="hero-description">
+          Explore our clothing categories. Product photographs, prices and
+          availability can be added after the shop's actual inventory is confirmed.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#fashion-catalogue">Explore Categories</a>
+          <a class="button button-outline" href="contact.html">Ask the Shop</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fashion-catalogue">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Clothing catalogue</p>
+          <h2>Find your fashion category</h2>
+          <p class="section-description">
+            Search the available catalogue or choose a category below.
+          </p>
+        </div>
+
+        <div class="product-toolbar">
+          <input
+            class="search-field"
+            type="search"
+            data-product-search
+            placeholder="Search fashion categories..."
+            aria-label="Search fashion catalogue">
+        </div>
+
+        <div class="filter-list" data-category-filters aria-label="Filter fashion products">
+          <button class="filter-button active" type="button" data-category="all">All categories</button>
+        </div>
+
+        <div class="notice">
+          Catalogue preview: the categories below are starting points, not
+          confirmation of current stock. Please contact the shop for actual
+          products, sizes, prices and availability.
+        </div>
+
+        <div class="product-grid" data-product-grid aria-live="polite" style="margin-top:22px">
+          <div class="empty-state">
+            Fashion catalogue items will appear here when verified product
+            details are added.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="sarees">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">श्रेणी के अनुसार देखें</p>
+          <h2>कपड़ों की श्रेणियाँ</h2>
+          <p class="section-description">
+            अपनी पसंद की श्रेणी चुनें और दुकान से जानकारी लें।
+          </p>
+        </div>
+
+        <div class="category-grid">
+          <a class="category-card" href="contact.html">
+            <span class="category-symbol" aria-hidden="true">👗</span>
+            <h3>साड़ियाँ</h3>
+            <p>साड़ियों के डिज़ाइन और उपलब्धता पूछें</p>
+          </a>
+
+          <a class="category-card" id="suits" href="contact.html">
+            <span class="category-symbol" aria-hidden="true">👗</span>
+            <h3>सूट और सलवार सूट</h3>
+            <p>सूट के डिज़ाइन और उपलब्धता पूछें</p>
+          </a>
+
+          <a class="category-card" href="contact.html">
+            <span class="category-symbol" aria-hidden="true">👗</span>
+            <h3>कुर्तियाँ</h3>
+            <p>कुर्तियों और साइज़ की जानकारी लें</p>
+          </a>
+
+          <a class="category-card" href="contact.html">
+            <span class="category-symbol" aria-hidden="true">👗</span>
+            <h3>शर्ट और पुरुषों के कपड़े</h3>
+            <p>पुरुषों के कपड़ों की जानकारी लें</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong data-shop-name>Utsav Shrangar & Garments</strong>
+        <p>Style • Beauty • Tradition</p>
+        <p>Confirm product details and availability with the shop.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="fashion.html">Fashion</a>
+        <a href="beauty.html">Beauty</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://www.instagram.com/utsav_garments_showroom_?obrf=aG05bnl0bGF2dnhw"
+           target="_blank" rel="noopener noreferrer">Instagram</a>
+      </nav>
+
+      <p><a href="/admin">Owner Login</a></p>
+      <div class="footer-credit">
+        <p>© <span data-current-year>2026</span> Utsav Shrangar & Garments. All rights reserved.</p>
+        <p>Website crafted by <a href="https://visheshmavi24-lab.github.io/RKORA-Portfolio/">RKORA</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+    <a href="index.html" data-page-link>
+      <span class="mobile-nav-icon" aria-hidden="true">☰</span>
+      <span>Home</span>
+    </a>
+    <a href="fashion.html" data-page-link>
+      <span class="mobile-nav-icon" aria-hidden="true">◇</span>
+      <span>Fashion</span>
+    </a>
+    <a href="beauty.html" data-page-link>
+      <span class="mobile-nav-icon" aria-hidden="true">✧</span>
+      <span>Beauty</span>
+    </a>
+    <a href="contact.html" data-page-link>
+      <span class="mobile-nav-icon" aria-hidden="true">✉</span>
+      <span>Contact</span>
+    </a>
+  </nav>
+    <script src='./js/showroom.js'></script>
+</body>
+</html>
+
+
+
+

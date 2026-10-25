@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#35172e">
+  <meta name="description" content="Explore jewellery, earrings, jhumkas and beauty categories at Utsav Shrangar & Garments. Contact the shop to confirm availability.">
+  <title>Beauty & Jewellery | Utsav Shrangar & Garments</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/products.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Utsav Shrangar & Garments home">
+        <img class="brand-logo" data-shop-logo src="assets/images/clean/utsav-logo-clean.jpg" alt="Utsav Shrangar & Garments logo">
+        <span class="brand-copy">
+          <span class="brand-name" data-shop-name>Utsav Shrangar & Garments</span>
+          <span class="brand-tagline">Style • Beauty • Tradition</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="index.html" data-page-link>Home</a>
+        <a href="fashion.html" data-page-link>Fashion</a>
+        <a href="beauty.html" data-page-link>Beauty & Jewellery</a>
+        <a href="contact.html" data-page-link>Contact</a>
+      </nav>
+
+      <a class="button header-contact" href="contact.html">Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Beauty & jewellery</p>
+          <h1>Little details, beautiful style.</h1>
+          <p class="hero-description">
+            Explore jewellery and beauty categories inspired by the references
+            provided for this website. Ask the shop about actual products,
+            prices, brands and availability.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#beauty-catalogue">Explore Categories</a>
+            <a class="button button-outline" href="contact.html">Contact the Shop</a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <img
+            src="assets/images/clean/jewellery-clean.jpg"
+            alt="Jewellery style reference supplied for the website design"
+            width="300"
+            height="300"
+            loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="beauty-catalogue">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Explore the catalogue</p>
+          <h2>Jewellery & beauty categories</h2>
+          <p class="section-description">
+            Search the catalogue or select a category. Product listings will
+            be populated with verified shop details.
+          </p>
+        </div>
+
+        <div class="product-toolbar">
+          <input
+            class="search-field"
+            type="search"
+            data-product-search
+            placeholder="Search jewellery and beauty..."
+            aria-label="Search beauty and jewellery catalogue">
+        </div>
+
+        <div class="filter-list" data-category-filters aria-label="Filter beauty products">
+          <button class="filter-button active" type="button" data-category="all">All categories</button>
+        </div>
+
+        <div class="notice">
+          The jewellery photograph is a style reference, not a confirmation
+          that the pictured item is currently available for sale. Actual
+          products, stock, brands and prices must be confirmed by the shop.
+        </div>
+
+        <div
+          class="product-grid"
+          data-product-grid
+          aria-live="polite"
+          style="margin-top:22px">
+          <div class="empty-state">
+            Beauty and jewellery catalogue items will appear here when verified
+            product details are added.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="earrings">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">आभूषण और एक्सेसरीज़</p>
+          <h2>श्रेणी के अनुसार देखें</h2>
+          <p class="section-description">
+            अपनी पसंद की श्रेणी चुनें और दुकान से जानकारी लें।
+          </p>
+        </div>
+
+        <div class="category-grid">
+          <a class="category-card" href="contact.html">
+            <span class="category-symbol" aria-hidden="true">◇</span>
+            <h3>झुमके और ईयररिंग्स</h3>
+            <p>आभूषणों के डिज़ाइन की जानकारी लें</p>
+          </a>
+
+          <a class="category-card" href="contact.html">
+            <span class="category-symbol" aria-hidden="true">✦</span>
+            <h3>आभूषण और एक्सेसरीज़</h3>
+            <p>एक्सेसरीज़ की जानकारी लें</p>
+          </a>
+
+          <a class="category-card" id="beauty" href="contact.html">
+            <span class="category-symbol" aria-hidden="true">✧</span>
+            <h3>मेकअप और लिपस्टिक</h3>
+            <p>ब्यूटी उत्पादों की जानकारी लें</p>
+          </a>
+
+          <a class="category-card" href="contact.html">
+            <span class="category-symbol" aria-hidden="true">👗</span>
+            <h3>त्वचा की देखभाल और नेल पॉलिश</h3>
+            <p>उत्पादों और ब्रांड की जानकारी लें</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong data-shop-name>Utsav Shrangar & Garments</strong>
+        <p>Style • Beauty • Tradition</p>
+        <p>Confirm product details and availability with the shop.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="fashion.html">Fashion</a>
+        <a href="beauty.html">Beauty</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://www.instagram.com/utsav_garments_showroom_?obrf=aG05bnl0bGF2dnhw"
+           target="_blank" rel="noopener noreferrer">Instagram</a>
+      </nav>
+
+      <div class="footer-credit">
+        <p>© <span data-current-year>2026</span> Utsav Shrangar & Garments. All rights reserved.</p>
+        <p>Website crafted by <a href="https://visheshmavi24-lab.github.io/RKORA-Portfolio/">RKORA</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+    <a href="index.html" data-page-link>
+      <span class="mobile-nav-icon" aria-hidden="true">☰</span>
+      <span>Home</span>
+    </a>
+    <a href="fashion.html" data-page-link>
+      <span class="mobile-nav-icon" aria-hidden="true">◇</span>
+      <span>Fashion</span>
+    </a>
+    <a href="beauty.html" data-page-link>
+      <span class="mobile-nav-icon" aria-hidden="true">✧</span>
+      <span>Beauty</span>
+    </a>
+    <a href="contact.html" data-page-link>
+      <span class="mobile-nav-icon" aria-hidden="true">✉</span>
+      <span>Contact</span>
+    </a>
+  </nav>
+    <script src='./js/showroom.js'></script>
+</body>
+</html>
+
